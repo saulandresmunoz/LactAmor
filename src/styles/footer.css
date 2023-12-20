@@ -1,0 +1,23 @@
+.footer {
+    align-items: center;
+    background-color: #E6CABE;
+    padding: 10px;
+    text-align: center;
+
+}
+.footer__subtitle--text{
+    font-size: 18px;
+    color: black;
+    line-height: 1.5;
+    margin: 0;
+    font-family: 'Questrial', sans-serif;
+
+}
+.footer__title--text{
+    font-size: 26px;
+    color: black;
+    line-height: 1.5;
+    margin: 0;
+    font-family: 'Antic Didone', sans-serif;
+
+}

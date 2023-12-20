@@ -1,0 +1,16 @@
+body {
+    background-color: #ffffff;
+    color: #0a0909;
+    font-family: 'Questrial', sans-serif;
+}
+
+.subheader{
+    text-align: center;
+    background-color: #f1e0db;
+    padding: 30px;
+    margin: 0;
+    color: black;
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 300;
+    font-size: 40px;
+}

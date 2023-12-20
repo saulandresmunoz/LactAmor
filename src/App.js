@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import GlobalRouter from "./router/GlobalRouter";
+import {RecursosContext} from "./context/RecursosContext";
+import CarritoProvider from "./context/CarritoContext"
+import PagoProvider from "./context/PagoContext"
+
+import {useRecursos} from "./hooks/useRecursos";
+import {useDevoluciones} from "./hooks/useDevoluciones";
+
+import {DevolucionesContext} from "./context/DevolucionesContext";
+import BuscadorProvider, {BuscadorContext} from "./context/BuscadorContext";
+
 
 function App() {
+    const recursos_app = useRecursos();
+    const devoluciones_app = useDevoluciones();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+      <CarritoProvider>
+
+            <PagoProvider>
+              <BuscadorProvider>
+                <RecursosContext.Provider value={{recursos_app}}>
+                    <DevolucionesContext.Provider value={{devoluciones_app}}>
+                        <GlobalRouter></GlobalRouter>
+                    </DevolucionesContext.Provider>
+                </RecursosContext.Provider>
+              </BuscadorProvider>
+            </PagoProvider>
+
+      </CarritoProvider>
   );
 }
 

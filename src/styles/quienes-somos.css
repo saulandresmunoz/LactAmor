@@ -1,0 +1,30 @@
+.AboutUs {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2px;
+    height: 600px;
+    background-color: #bd998e;
+}
+
+
+
+.AboutUs__image  {
+    text-align: left;
+}
+
+.AboutUs__image img {
+    max-width: 200%;
+    height: 600px;
+}
+
+
+.AboutUs__text {
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 0;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+    color:white;
+    line-height: 1.5;
+}

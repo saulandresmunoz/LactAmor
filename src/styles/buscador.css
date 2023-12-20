@@ -1,0 +1,15 @@
+.search__form {
+    display: flex;
+    max-width: 300px;
+    margin: 10px 20px 0;
+}
+
+
+.search__form-bar {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+    margin-right: 5px;
+    font-family: 'Questrial', sans-serif;
+}

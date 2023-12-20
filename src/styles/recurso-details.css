@@ -1,0 +1,108 @@
+.recursoDetails__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.recursoDetails__container--left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.recursoDetails__container--image {
+    text-align: center;
+}
+
+.recursoDetails__container--image img {
+    max-width: 100%;
+}
+
+.recursoDetails__container--left--box--button {
+    width: 200px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    align-items: center;
+    font-family: 'Junge', sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    transition: box-shadow 0.3s ease;
+    margin: 10px;
+}
+.recursoDetails__container--left--box--button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.recursoDetails__container--left--box {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.recursoDetails__container--left--text {
+    color: BLACK;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.recursoDetails__container--left--box--mensaje{
+    color: BLACK;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.recursoDetails__container--left--box--noBorder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin: 0;
+}
+.recursoDetails__container--left--box--noBorder--button {
+    width: auto;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    align-items: center;
+    font-family: 'Junge', sans-serif;
+    font-size: 20px;
+    border: none;
+    margin: 10px;
+    font-weight: bold;
+}
+.recursoDetails__container--left--box--noBorder--button:hover{
+    text-decoration: underline;
+}
+.recursoDetails__container--left--add {
+    border: 1px solid #8b8c8c;
+
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.recursoDetails__container--left--add--buttonMinus {
+    border: none;
+    border-right: 2px solid #8b8c8c;
+    background: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #8b8c8c;
+    cursor: pointer;
+}
+.recursoDetails__container--left--add--buttonPlus {
+    border: none;
+    border-left: 2px solid #8b8c8c;
+    background: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #8b8c8c;
+    cursor: pointer;
+}
+
+.recursoDetails__container--left--add--cantidad{
+    margin: 10px;
+    color: #8b8c8c;
+    font-size: 20px;
+}

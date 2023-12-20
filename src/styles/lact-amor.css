@@ -1,0 +1,68 @@
+.LactAmor__header {
+    text-align: center;
+    background-color: #f1e0db;
+    padding: 30px;
+    color: black;
+}
+.LactAmor__header--Title{
+    font-size: 70px;
+    font-family: 'Abril Fatface', cursive;
+    margin: 0;
+    color: black;
+}
+.LactAmor__header--Subtitle{
+    font-size: 18px;
+    font-family: 'Questrial', sans-serif;
+    margin: 0;
+    color: black;
+}
+
+.LactAmor__noticias {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    height: 500px;
+    background-color: #bd998e;
+}
+
+
+.LactAmor__noticias--image  {
+    text-align: left;
+}
+
+.LactAmor__noticias--image img {
+    max-width: 200%;
+    height: 500px;
+}
+
+
+
+.LactAmor__noticias--text {
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 10px;
+    color:white;
+
+}
+
+.LactAmor__noticias--text--title {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 50px;
+    font-family: 'Antic Didone', sans-serif;
+
+}
+.LactAmor__noticias--text--subtitle--bold {
+    margin: 5px;
+    font-size: 16px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+}
+.LactAmor__noticias--text--subtitle {
+    margin: 5px;
+    font-size: 16px;
+    font-family: 'Questrial', sans-serif;
+    line-height: 1.2;
+}

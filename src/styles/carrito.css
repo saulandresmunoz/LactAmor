@@ -1,0 +1,60 @@
+.carrito__table {
+    width: calc(100% - 80px);
+    margin: 0 40px;
+    border-collapse: collapse;
+    font-family: 'Questrial', sans-serif;
+}
+.carrito__table-header {
+    width: calc(100% - 80px);
+    margin: 20px 40px 0;
+    border-collapse: collapse;
+    font-family: 'Questrial', sans-serif;
+}
+
+.carrito__table-header th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 20%;
+    background-color: #f1e0db
+}
+
+.carrito__table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 20%;
+    text-align: center
+}
+
+.carrito__table--deleteButton {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.carrito__Pago {
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 20px;
+
+}
+.carrito__Pago--precioTotal {
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.carrito__Pago--button {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid black;
+    transition: box-shadow 0.3s ease;
+    font-family: 'Junge', sans-serif;
+
+}
+.carrito__Pago--button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

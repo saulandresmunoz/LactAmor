@@ -1,0 +1,47 @@
+.devolucion__table {
+    width: calc(100% - 80px);
+    margin: 0 40px;
+    border-collapse: collapse;
+    font-family: 'Questrial', sans-serif;
+}
+.devolucion__table--header {
+    width: calc(100% - 80px);
+    margin: 20px 40px 0;
+    border-collapse: collapse;
+    font-family: 'Questrial', sans-serif;
+}
+
+.devolucion__table--header th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 20%;
+    background-color: #f1e0db;
+}
+
+.devolucion__table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 20%;
+    text-align: center
+}
+
+
+
+.devolucion__table--div {
+    margin-bottom: 20px;
+}
+.devolucion__table--goButton {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    align-items: center;
+    font-family: 'Junge', sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    transition: box-shadow 0.3s ease;
+    margin: 5px;
+}
+
+.devolucion__table--goButton:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
